@@ -1,0 +1,41 @@
+# -----------------------------
+# Python cache & build files
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.tmp
+*.egg-info/
+*.egg
+
+# -----------------------------
+# Virtual environment
+# -----------------------------
+.venv/
+env/
+venv/
+
+# -----------------------------
+# System and IDE files
+# -----------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# -----------------------------
+# Model files (if large)
+# -----------------------------
+models
+models/*.pt
+models/*.onnx
+
+# -----------------------------
+# Other unnecessary files
+# -----------------------------
+*.zip
+*.rar
+*.tar
+*.gz

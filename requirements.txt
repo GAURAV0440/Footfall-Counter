@@ -1,0 +1,8 @@
+opencv-python
+numpy
+imutils
+ultralytics         # lightweight YOLOv8
+filterpy      # for SORT if needed
+scipy
+matplotlib
+PyQt5
