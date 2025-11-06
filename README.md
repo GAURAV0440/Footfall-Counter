@@ -4,6 +4,8 @@
 This project is built to count how many people enter and exit through a specific area (like a door, corridor, or hallway) using computer vision.
 It combines human detection, object tracking and counting logic into one clean, modular Python system.
 
+## output video is added in output folder
+
 ## What I Did:
 I developed a real-time footfall counter using:
 YOLOv8 for detecting humans in video frames.
@@ -64,4 +66,5 @@ Working with OpenCV for real-time video handling
 Handling cross-platform stability issues (especially on Linux Wayland).....
 
 ## THANK YOU
+
 
