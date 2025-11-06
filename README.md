@@ -46,6 +46,22 @@ python src/main.py
 It will automatically start your webcam, detect people, and show live IN/OUT counts.
 Press Q or close the window to stop the program.
 
+
+### Model Information
+This project uses the YOLOv8n (Nano) model from Ultralytics for detecting humans in video frames.
+It’s a lightweight, pre-trained model that works efficiently on CPU systems as well.
+If the model file is not already available in the /models/ folder, please download it manually from the official Ultralytics release link below:
+
+If ultralytics is already installed (from your requirements.txt), just run:
+" yolo download model=yolov8n.pt "
+This automatically downloads the YOLOv8n model to the Ultralytics cache folder
+
+Once downloaded, move the file into your project’s models folder:
+mv ~/.config/Ultralytics/weights/yolov8n.pt models/
+
+The final structure should look like:
+models/yolov8n.pt
+
 ## Output
 Real-time video feed with bounding boxes and ID tags
 IN and OUT counts displayed at the top-left
@@ -66,6 +82,7 @@ Working with OpenCV for real-time video handling
 Handling cross-platform stability issues (especially on Linux Wayland).....
 
 ## THANK YOU
+
 
 
 
