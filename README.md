@@ -52,7 +52,7 @@ IN and OUT counts displayed at the top-left
 Output videos are automatically saved inside the /output/ folder
 (e.g., output_webcam_20251106_231636.mp4)
 
-## Why I Removed the “Browse Video” Option
+#### Why I Removed the “Browse Video” Option
 Initially, I had added a GUI option to browse and upload videos using PyQt5.
 However, during testing on Ubuntu (Wayland), it caused freezing issues inside VS Code due to Qt conflicts.
 So, I decided to simplify it — now the project runs smoothly and reliably using just the webcam.
@@ -66,5 +66,6 @@ Working with OpenCV for real-time video handling
 Handling cross-platform stability issues (especially on Linux Wayland).....
 
 ## THANK YOU
+
 
 
