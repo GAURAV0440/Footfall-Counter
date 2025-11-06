@@ -1,6 +1,6 @@
 ## Footfall Counter using Computer Vision
 
-# Objective
+## Objective
 This project is built to count how many people enter and exit through a specific area (like a door, corridor, or hallway) using computer vision.
 It combines human detection, object tracking and counting logic into one clean, modular Python system.
 
@@ -24,21 +24,21 @@ FilterPy – for smoothing object movement during tracking
 <img width="358" height="438" alt="image" src="https://github.com/user-attachments/assets/fdd2bf0d-cb3f-4fa0-b10c-86700dfa61ab" />
 
 ## What Each File Does:
-# main.py	The main file — opens webcam, runs detection, tracking, and counting, and saves results.
-# detector.py	Handles YOLOv8-based human detection logic.
-# tracker.py	Tracks detected people across frames and assigns unique IDs.
-# counter.py	Checks when tracked IDs cross the ROI line and updates IN/OUT counts.
-# test_detector.py	Used to test YOLO detection independently.
-# test_tracker.py	Used to verify the tracking system.
+main.py	The main file — opens webcam, runs detection, tracking, and counting, and saves results.
+detector.py	Handles YOLOv8-based human detection logic.
+tracker.py	Tracks detected people across frames and assigns unique IDs.
+counter.py	Checks when tracked IDs cross the ROI line and updates IN/OUT counts.
+test_detector.py	Used to test YOLO detection independently.
+test_tracker.py	Used to verify the tracking system.
 
 ## How to Run
-# Activate virtual environment
+## Activate virtual environment
 source .venv/bin/activate
 
-# Install dependencies
+## Install dependencies
 pip install -r requirements.txt
 
-# Run the main program
+## Run the main program
 python src/main.py
 
 It will automatically start your webcam, detect people, and show live IN/OUT counts.
@@ -64,3 +64,4 @@ Working with OpenCV for real-time video handling
 Handling cross-platform stability issues (especially on Linux Wayland).....
 
 ## THANK YOU
+
